@@ -49,6 +49,8 @@ spdata <-  read.csv("Jurua_Palm_data_v2.csv", header=TRUE, stringsAsFactors=FALS
 
 #Get data of predictors obtained from GIS-layers#
   envi <-  read.csv("plot_predictors.csv")
+  envi<-envi[,-1]
+
   #--------------------------#
   #Random Forest regression
   #--------------------------#
