@@ -106,7 +106,7 @@ spdata <-  read.csv("Jurua_Palm_data_v2.csv", header=TRUE, stringsAsFactors=FALS
   names(r.nmds.ffs)<-c("nmds1", "nmds2", "nmds3")
   
   #Export the floristic ordinations
-  writeRaster(r.nmds.ffs,filename="floristic_predictions_nmds_ffs.tif",format="GTiff",overwrite=T)
+  writeRaster(r.nmds.ffs,filename="floristic_predictions_nmds_ffs.tif",format="GTiff",overwrite=F)
 
   ###End of predictions using Random Forest###
 
@@ -122,4 +122,5 @@ spdata <-  read.csv("Jurua_Palm_data_v2.csv", header=TRUE, stringsAsFactors=FALS
   names(r.nmds.aoa)<-c("DI_nmds1","aoa_nmds1","DI_nmds2","aoa_nmds2","DI_nmds3","aoa_nmds3")
  #visualize DI and AOA maps
   plot(r.nmds.aoa)
-  writeRaster(r.nmds.aoa,filename="floristic_predictions_nmds_aoa.tif",format="GTiff",overwrite=T)
+#save raster 
+  writeRaster(r.nmds.aoa,filename="floristic_predictions_nmds_aoa.tif",format="GTiff",overwrite=F)
