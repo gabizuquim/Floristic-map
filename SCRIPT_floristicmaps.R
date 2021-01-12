@@ -103,7 +103,7 @@ spdata <-  read.csv("Jurua_Palm_data_v2.csv", header=TRUE, stringsAsFactors=FALS
   
   # stack floristic predictions
   r.nmds.ffs<-stack(r.nmds1.ffs,r.nmds2.ffs,r.nmds3.ffs)
-  names(r.nmds.ffs)<-c(paste0("nmds1",plant[i]), paste0("nmds2",plant[i]), paste0("nmds3",plant[i]))
+  names(r.nmds.ffs)<-c("nmds1", "nmds2", "nmds3")
   
   #Export the floristic ordinations
   writeRaster(r.nmds.ffs,filename="floristic_predictions_nmds_ffs.tif",format="GTiff",overwrite=T)
