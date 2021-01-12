@@ -5,7 +5,7 @@
 #----------------- in Jurua, Brazilian Amazonia -------------------#
 #------------------------------------------------------------------#
 # by Gabriela Zuquim 
-#We thank Pablo Perez Chaves for support in code development
+#Many thanks to Pablo Perez Chaves for support in code development
 
 #please cite doi:
 
