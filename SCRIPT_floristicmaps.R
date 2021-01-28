@@ -4,8 +4,7 @@
 #-------(Amazon Landsat TM/ETM+ imangery bands, CEC, HAND) --------#
 #----------------- in Jurua, Brazilian Amazonia -------------------#
 #------------------------------------------------------------------#
-# by Gabriela Zuquim 
-#Many thanks to Pablo Perez Chaves for support in code development
+# by Gabriela Zuquim and Pablo Perez Chaves
 
 #please cite doi:
 
