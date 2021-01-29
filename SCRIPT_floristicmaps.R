@@ -6,7 +6,8 @@
 #------------------------------------------------------------------#
 # by Gabriela Zuquim and Pablo Perez Chaves
 
-#please cite doi:
+#please cite DOI: 10.5281/zenodo.4478282 
+#https://zenodo.org/badge/latestdoi/328906259
 
 Packages <- c("raster", "caret", "mapview", "sf", "CAST", "vegan", 
               "cluster", "mvtnorm","dendextend","dplyr",
