@@ -21,8 +21,7 @@ spdata <-  read.csv("Jurua_Palm_data_v2.csv", header=TRUE, stringsAsFactors=FALS
 
 #------------------------------------------------------------------#
 
-#####   PART 1B:  Ordination plots with classification results #####
-# checked 2020-02-04
+#####   Ordination plots with classification results #####
 
 # run ordination and classification 
 #dist matrix all species
