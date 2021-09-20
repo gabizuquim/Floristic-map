@@ -4,7 +4,9 @@ DOI: 10.5281/zenodo.4478282
 https://zenodo.org/badge/latestdoi/328906259
 
 Code to combine florist inventory data with predictive GIS-layers to generate floristic composition maps
-
+Publication:
+Revealing floristic variation and map uncertainties for different plant groups in western Amazonia
+https://onlinelibrary.wiley.com/doi/abs/10.1111/jvs.13081
 
 ############
 Floristic data provided is a subset of palm inventory data available at
